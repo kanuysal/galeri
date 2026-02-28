@@ -1,0 +1,5 @@
+rEvents="all"}}),this.videoAnnimation&&this.videoAnnimation.kill(),this.videoAnnimation=he.fromTo(".menu_canvas_container",{opacity:"0"},{opacity:"1",duration:.3,ease:"sine.inOut",delay:2}),i.forEach((g,m)=>{he.fromTo(g,{
+Events="none"}}),this.videoAnnimation&&this.videoAnnimation.kill(),this.videoAnnimation=he.fromTo(".menu_canvas_container",{opacity:"1"},{opacity:"0",duration:.3,ease:"sine.inOut"}),s.forEach((d,f)=>{he.fromTo(d,{y:"0%"},
+rEvents="all"}}),this.videoAnnimation&&this.videoAnnimation.kill(),this.videoAnnimation=he.fromTo(".menu_canvas_container",{opacity:"0"},{opacity:"1",duration:.3,ease:"sine.inOut",delay:2}),i.forEach((x,v)=>{he.fromTo(x,{
+Events="none"}}),this.videoAnnimation&&this.videoAnnimation.kill(),this.videoAnnimation=he.fromTo(".menu_canvas_container",{opacity:"1"},{opacity:"0",duration:.3,ease:"sine.inOut"}),i.forEach((m,p)=>{he.fromTo(m,{y:"0%"},
+Ll=this,window.experience=this,this.canvas=e,this.isPhone=t,this.isPhone&&(document.querySelector(".menu_canvas_container").style.display="none"),this.setup()}async setup(){this.isInit=!1,this.loader=new dE,await this.loa

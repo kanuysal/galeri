@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="inject_cms.js"></script>
+  <!-- Original fonts required by the JS loader -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <style>
+    @font-face {
+      font-family: 'Italiana';
+      font-display: swap;
+      src: url('assets/italiana-regular.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: 'Garamond';
+      font-display: swap;
+      src: url('https://fonts.gstatic.com/s/ebgaramond/v27/SlGDmQ6n6HI9ugyl9Z0LUMyO89_p1r75Xp8.woff2') format('woff2');
+    }
+
+    h1,
+    h2,
+    h3,
+    .loader_title,
+    .title {
+      font-family: 'Italiana', serif !important;
+    }
+
+    body,
+    p,
+    .subtitle,
+    .menu_main_links a,
+    .menu_links a,
+    .menu_contact,
+    .menu_insta,
+    .menu_button button,
+    .search_bar input {
+      font-family: 'Garamond', serif !important;
+    }
+
+    .menu_main_links a {
+      font-size: 20px !important;
+    }
+
+    .menu_links a {
+      font-size: 13rem !important;
+    }
+
+    .menu_main_links a,
+    .menu_links a,
+    .menu_contact,
+    .menu_insta {
+      color: #ffffff !important;
+      text-transform: uppercase;
+    }
+
+    .search_bar input {
+      color: #ffffff !important;
+      border-bottom: 1px solid #ffffff;
+      background: transparent;
+    }
+
+    .loader {
+      background: #000000;
+      color: #ffffff;
+      overflow: hidden;
+    }
+  </style>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description"
+    content="Thevertmenthe is an artist whose work embraces simplicity and subtle emotion through the humble ballpoint pen. Using ink as both medium and metaphor, his drawings explore quiet moments, fleeting thoughts, and the poetry of everyday life." />
+
+  <title>Mina Lidya Gallery</title>
+
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+    rel="stylesheet" />
+  <script type="module" crossorigin src="/assets/index-845b001d.js"></script>
+  <link rel="stylesheet" href="/assets/index-c354b78a.css">
+</head>
+
+<body>
+  <div class="loader">
+    <span>
+      <h1 class="loader_title">MİNA LİDYA</h1>
+    </span>
+    <div class="loader_line"></div>
+    <span>
+      <div class="loader_sub">
+        <div class="loader_number">0</div>
+        <div class="loader_subtitle">İnegöl Mağaza & Valencia Atellier</div>
+      </div>
+    </span>
+  </div>
+
+
+  <div class="menu">
+    <div class="menu_canvas_container">
+      <img class="menu_image" crossorigin="anonymous" src="/textures/oeuvre.png" alt="" />
+      <video class="menu_video" autoplay loop muted playsinline src="/videos/ink.mp4"></video>
+    </div>
+  </div>
+  <div class="menu_text">
+    <div class="search_bar">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+        <path
+          d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z" />
+      </svg>
+      <input type="text" placeholder="Bir ürün ara" />
+    </div>
+    <div class="menu_main_links">
+      <span><a href="/">Anasayfa</a> ></span>
+      <span><a href="/gallery">Galeri</a> ></span>
+    </div>
+    <div class="menu_line"></div>
+    <div class="menu_links">
+      <ul></ul>
+    </div>
+  </div>
+  <span class="menu_button menu_open"><button>menü</button></span>
+  <span class="menu_button menu_close"><button>kapat</button></span>
+  <a href="https://wa.me/905421131641" target="_blank" class="menu_contact">İletişim</a>
+  <a href="https://www.instagram.com/minalidyagelinlik/" target="_blank" class="menu_insta">Instagram</a>
+
+  <div class="joystick_container"></div>
+  <main class="main"></main>
+
+  <canvas class="webgl"></canvas>
+
+</body>
+
+</html>
