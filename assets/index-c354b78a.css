@@ -170,11 +170,11 @@ h1 {
 .data_bottom li:nth-last-child(1),
 .data_bottom li:nth-last-child(2) {
     font-family: 'Pinyon Script', cursive !important;
-    font-size: 35rem;
+    font-size: 28rem;
     font-weight: normal;
     text-transform: none;
-    color: #fff;
-    margin-top: 10rem;
+    color: #f13343;
+    margin-top: 5rem;
 }
 
 .article_left li span span {

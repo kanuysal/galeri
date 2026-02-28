@@ -1,0 +1,176 @@
+
+--- /Signed/gi ---
+6BufferAttribute requires WebGL2."); else _ = r.UNSIGNED_SHORT; else if (u instanceof Int16Array) _ 
+SHORT; else if (u instanceof Uint32Array) _ = r.UNSIGNED_INT; else if (u instanceof Int32Array) _ = 
+r.BYTE; else if (u instanceof Uint8Array) _ = r.UNSIGNED_BYTE; else if (u instanceof Uint8ClampedArr
+ else if (u instanceof Uint8ClampedArray) _ = r.UNSIGNED_BYTE; else throw new Error("THREE.WebGLAttr
+ n.isWebGL2 === !0 && (Ae === r.INT || Ae === r.UNSIGNED_INT || re.gpuType === Qd); if (re.isInterle
+texImage3D(le, 0, r.RGBA, 1, 1, Y, 0, r.RGBA, r.UNSIGNED_BYTE, ie) : r.texImage2D(le + Ge, 0, r.RGBA
+xImage2D(le + Ge, 0, r.RGBA, 1, 1, 0, r.RGBA, r.UNSIGNED_BYTE, ie); return ye } const Ae = {}; Ae[r.
+), V === r.HALF_FLOAT && (ne = r.R16F), V === r.UNSIGNED_BYTE && (ne = r.R8)), w === r.RED_INTEGER &
+& (ne = r.R8)), w === r.RED_INTEGER && (V === r.UNSIGNED_BYTE && (ne = r.R8UI), V === r.UNSIGNED_SHO
+V === r.UNSIGNED_BYTE && (ne = r.R8UI), V === r.UNSIGNED_SHORT && (ne = r.R16UI), V === r.UNSIGNED_I
+=== r.UNSIGNED_SHORT && (ne = r.R16UI), V === r.UNSIGNED_INT && (ne = r.R32UI), V === r.BYTE && (ne 
+, V === r.HALF_FLOAT && (ne = r.RG16F), V === r.UNSIGNED_BYTE && (ne = r.RG8)), w === r.RGBA) { cons
+V === r.HALF_FLOAT && (ne = r.RGBA16F), V === r.UNSIGNED_BYTE && (ne = _e === st ? r.SRGB8_ALPHA8 : 
+ _e === st ? r.SRGB8_ALPHA8 : r.RGBA8), V === r.UNSIGNED_SHORT_4_4_4_4 && (ne = r.RGBA4), V === r.UN
+SIGNED_SHORT_4_4_4_4 && (ne = r.RGBA4), V === r.UNSIGNED_SHORT_5_5_5_1 && (ne = r.RGB5_A1) } return 
+= Ti && (console.warn("THREE.WebGLRenderer: Use UnsignedShortType or UnsignedIntType for DepthFormat
+("THREE.WebGLRenderer: Use UnsignedShortType or UnsignedIntType for DepthFormat DepthTexture."), w.t
+= is && (console.warn("THREE.WebGLRenderer: Use UnsignedInt248Type for DepthStencilFormat DepthTextu
+RGB encoded textures have to use RGBAFormat and UnsignedByteType.") : console.error("THREE.WebGLText
+t l = $e.getTransfer(o); if (s === Di) return r.UNSIGNED_BYTE; if (s === ef) return r.UNSIGNED_SHORT
+ return r.UNSIGNED_BYTE; if (s === ef) return r.UNSIGNED_SHORT_4_4_4_4; if (s === tf) return r.UNSIG
+.UNSIGNED_SHORT_4_4_4_4; if (s === tf) return r.UNSIGNED_SHORT_5_5_5_1; if (s === Fm) return r.BYTE;
+ === km) return r.SHORT; if (s === xc) return r.UNSIGNED_SHORT; if (s === Qd) return r.INT; if (s ==
+(s === Qd) return r.INT; if (s === Ti) return r.UNSIGNED_INT; if (s === wn) return r.FLOAT; if (s ==
+M_EXT; if (s === kh) return a.COMPRESSED_RGB_BPTC_SIGNED_FLOAT_EXT; if (s === Bh) return a.COMPRESSE
+EXT; if (s === Bh) return a.COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT } else return null; if (s === Xm 
+_RED_RGTC1_EXT; if (s === zh) return a.COMPRESSED_SIGNED_RED_RGTC1_EXT; if (s === Hh) return a.COMPR
+REEN_RGTC2_EXT; if (s === Vh) return a.COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT } else return null; ret
+EXT } else return null; return s === is ? n ? r.UNSIGNED_INT_24_8 : (a = e.get("WEBGL_depth_texture"
+ = e.get("WEBGL_depth_texture"), a !== null ? a.UNSIGNED_INT_24_8_WEBGL : null) : r[s] !== void 0 ? 
+.readRenderTargetPixels: renderTarget is not in UnsignedByteType or implementation defined type."); 
+/li>`), t.innerHTML += `
+        <li><span><span>Signed</span></span></li>
+        <li><span><span
+IANGLES: 4, TRIANGLE_STRIP: 5, TRIANGLE_FAN: 6, UNSIGNED_BYTE: 5121, UNSIGNED_SHORT: 5123 }, js = { 
+STRIP: 5, TRIANGLE_FAN: 6, UNSIGNED_BYTE: 5121, UNSIGNED_SHORT: 5123 }, js = { 5120: Int8Array, 5121
+
+--- /Haute/gi ---
+
+--- /Contact/gi ---
+tWall(), this.setCadre(), this.setHtml(), this.setContact(), this.appear(), document.querySelector("
+ontact(), this.appear(), document.querySelector(".contact_button").addEventListener("mouseenter", ()
+rsonnage.sayHi = !0) }), document.querySelector(".contact_button").addEventListener("mouseleave", ()
+_arrows .arrowR a"), a = document.querySelector(".contact_button"); !s || !o || !this._canArrowPress
+ => { n.isMesh && (n.visible = !0) }) }, 50) } setContact() { document.querySelector(".contact_butto
+ }, 50) } setContact() { document.querySelector(".contact_button").addEventListener("click", () => t
+) {
+			const e = "etienne.dault@gmail.com", t = `Contact about the artwork ${this.toBoldUnicode(thi
+)}`, n = `  Hello,
+
+                        I’m contacting you about the artwork ${this.toBoldUnic
+loneNode(!0)); const i = document.querySelector(".contact_button"); i && i.replaceWith(i.cloneNode(!
+ this.linkannim = [], this.isClickable = !1, this.contactButton = document.querySelector(".menu_cont
+his.contactButton = document.querySelector(".menu_contact"), this.instaButton = document.querySelect
+ton = document.querySelector(".menu_insta"), this.contactButton.addEventListener("mouseenter", () =>
+utton.addEventListener("mouseenter", () => { this.contactButton.style.opacity = "1" }), this.instaBu
+> { this.instaButton.style.opacity = "1" }), this.contactButton.addEventListener("mouseleave", () =>
+utton.addEventListener("mouseleave", () => { this.contactButton.style.opacity = "0.6" }), this.insta
+{ this.instaButton.style.opacity = "0.6" }), this.contactButton.addEventListener("click", () => {
+	
+> {
+			const s = "etienne.dault@gmail.com", o = "Contact regarding your artworks", a = `  Hello,
+ 
+-100%", duration: .3, ease: "sine.inOut" }), this.contactButtonAnim && this.contactButtonAnim.kill()
+: "sine.inOut" }), this.contactButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim =
+ButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { op
+nAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { opacity: .6, duration: .3, ease: 
+sine.inOut", delay: 1.5, onComplete: () => { this.contactButton.style.pointerEvents = "all" } }), th
+hover").forEach(d => d.style.opacity = "0"), this.contactButtonAnim && this.contactButtonAnim.kill()
+le.opacity = "0"), this.contactButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim =
+ButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { op
+nAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { opacity: 0, duration: .3, ease: "
+ .3, ease: "sine.inOut", onComplete: () => { this.contactButton.style.pointerEvents = "none" } }), t
+s.inputField.value = "", this.filterLinks(), this.contactButtonAnim && this.contactButtonAnim.kill()
+his.filterLinks(), this.contactButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim =
+ButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { op
+nAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { opacity: .6, duration: .3, ease: 
+sine.inOut", delay: 1.5, onComplete: () => { this.contactButton.style.pointerEvents = "all" } }), th
+hover").forEach(m => m.style.opacity = "0"), this.contactButtonAnim && this.contactButtonAnim.kill()
+le.opacity = "0"), this.contactButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim =
+ButtonAnim && this.contactButtonAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { op
+nAnim.kill(), this.contactButtonAnim = he.to(this.contactButton, { opacity: 0, duration: .3, ease: "
+ .3, ease: "sine.inOut", onComplete: () => { this.contactButton.style.pointerEvents = "none" } }), t
+sEnabled = !1; const e = document.querySelector(".contact_button .personnageTarget"), t = Xp.three.g
+
+--- /keyboard/gi ---
+
+--- /arrow/gi ---
+1, this.autoRotateSpeed = 2, this.keys = { LEFT: "ArrowLeft", UP: "ArrowUp", RIGHT: "ArrowRight", BO
+eSpeed = 2, this.keys = { LEFT: "ArrowLeft", UP: "ArrowUp", RIGHT: "ArrowRight", BOTTOM: "ArrowDown"
+eys = { LEFT: "ArrowLeft", UP: "ArrowUp", RIGHT: "ArrowRight", BOTTOM: "ArrowDown" }, this.mouseButt
+ft", UP: "ArrowUp", RIGHT: "ArrowRight", BOTTOM: "ArrowDown" }, this.mouseButtons = { LEFT: ps.ROTAT
+= this.experience.time, this.isArticle = !0, this.arrowClicked = !1, this.camera.position.set(0, 0, 
+1) }); const e = document.querySelector(".article_arrows .arrowL a"), t = document.querySelector(".a
+onst e = document.querySelector(".article_arrows .arrowL a"), t = document.querySelector(".article_a
+.arrowL a"), t = document.querySelector(".article_arrows .arrowR a"); e.addEventListener("click", n 
+a"), t = document.querySelector(".article_arrows .arrowR a"); e.addEventListener("click", n => { n.p
+Listener("click", n => { n.preventDefault(), this.arrowClicked = !0, he.fromTo(e, { x: "0%" }, { x: 
+Article(i), this.experience.router.route(n), this.arrowClicked = !1 }), t.addEventListener("click", 
+ = !1 }), t.addEventListener("click", n => { this.arrowClicked = !0, n.preventDefault(), he.fromTo(t
+Article(i), this.experience.router.route(n), this.arrowClicked = !1 }), this._canArrowPress = !0, th
+ter.route(n), this.arrowClicked = !1 }), this._canArrowPress = !0, this._arrowKeyListener = n => { c
+wClicked = !1 }), this._canArrowPress = !0, this._arrowKeyListener = n => { const i = document.activ
+eturn; const s = document.querySelector(".article_arrows .arrowL a"), o = document.querySelector(".a
+onst s = document.querySelector(".article_arrows .arrowL a"), o = document.querySelector(".article_a
+.arrowL a"), o = document.querySelector(".article_arrows .arrowR a"), a = document.querySelector(".c
+a"), o = document.querySelector(".article_arrows .arrowR a"), a = document.querySelector(".contact_b
+elector(".contact_button"); !s || !o || !this._canArrowPress || (n.key === "Enter" && a.click(), (n.
+ || (n.key === "Enter" && a.click(), (n.code === "ArrowUp" || n.code === "ArrowLeft" || n.code === "
+& a.click(), (n.code === "ArrowUp" || n.code === "ArrowLeft" || n.code === "KeyA" || n.code === "Key
+perience.world.menu.isOpen ? (s.click(), this._canArrowPress = !1) : (n.code === "ArrowDown" || n.co
+click(), this._canArrowPress = !1) : (n.code === "ArrowDown" || n.code === "ArrowRight" || n.code ==
+ss = !1) : (n.code === "ArrowDown" || n.code === "ArrowRight" || n.code === "KeyD" || n.code === "Ke
+erience.world.menu.isOpen && (o.click(), this._canArrowPress = !1), this._canArrowPress || setTimeou
+& (o.click(), this._canArrowPress = !1), this._canArrowPress || setTimeout(() => { this._canArrowPre
+his._canArrowPress || setTimeout(() => { this._canArrowPress = !0 }, 2e3)) }, window.addEventListene
+2e3)) }, window.addEventListener("keydown", this._arrowKeyListener), window.addEventListener("keydow
+stener), window.addEventListener("keydown", this._arrowKeyListener), this.scene.traverse(n => { n.is
+
+		}); const h = document.querySelector(".article_arrows .arrowL a"), u = document.querySelector(".a
+onst h = document.querySelector(".article_arrows .arrowL a"), u = document.querySelector(".article_a
+.arrowL a"), u = document.querySelector(".article_arrows .arrowR a"), d = this.experience.articles[t
+a"), u = document.querySelector(".article_arrows .arrowR a"), d = this.experience.articles[this.inde
+0) }); const n = document.querySelector(".article_arrows .arrowL a"), i = document.querySelector(".a
+onst n = document.querySelector(".article_arrows .arrowL a"), i = document.querySelector(".article_a
+.arrowL a"), i = document.querySelector(".article_arrows .arrowR a"); document.querySelector(".artic
+a"), i = document.querySelector(".article_arrows .arrowR a"); document.querySelector(".article_arrow
+ows .arrowR a"); document.querySelector(".article_arrows").style.pointerEvents = "all", e || (this.a
+elay: 1.5 }, 0), this.appearAnim.fromTo(".article_arrows", { opacity: "0" }, { opacity: "1", duratio
+0) }); const t = document.querySelector(".article_arrows .arrowL a"), n = document.querySelector(".a
+onst t = document.querySelector(".article_arrows .arrowL a"), n = document.querySelector(".article_a
+.arrowL a"), n = document.querySelector(".article_arrows .arrowR a"); document.querySelector(".artic
+a"), n = document.querySelector(".article_arrows .arrowR a"); document.querySelector(".article_arrow
+ows .arrowR a"); document.querySelector(".article_arrows").style.pointerEvents = "none", this.arrowC
+ticle_arrows").style.pointerEvents = "none", this.arrowClicked || (this.disappearAnim.fromTo(t, { x:
+inOut" }, 0), this.disappearAnim.fromTo(".article_arrows", { opacity: "1" }, { opacity: "0", duratio
+se) == null || o.call(s), this.amb = null), this._arrowKeyListener && (window.removeEventListener("k
+r && (window.removeEventListener("keydown", this._arrowKeyListener), this._arrowKeyListener = null),
+istener("keydown", this._arrowKeyListener), this._arrowKeyListener = null), this.dir && (this.scene.
+null); const t = document.querySelector(".article_arrows .arrowL a"), n = document.querySelector(".a
+onst t = document.querySelector(".article_arrows .arrowL a"), n = document.querySelector(".article_a
+.arrowL a"), n = document.querySelector(".article_arrows .arrowR a"); t && t.replaceWith(t.cloneNode
+a"), n = document.querySelector(".article_arrows .arrowR a"); t && t.replaceWith(t.cloneNode(!0)), n
+is.directions = ["keyw", "keya", "keys", "keyd", "arrowleft", "arrowright", "arrowup", "arrowdown"],
+ = ["keyw", "keya", "keys", "keyd", "arrowleft", "arrowright", "arrowup", "arrowdown"], this.control
+eya", "keys", "keyd", "arrowleft", "arrowright", "arrowup", "arrowdown"], this.controlsEnabled = !0,
+", "keyd", "arrowleft", "arrowright", "arrowup", "arrowdown"], this.controlsEnabled = !0, this.sayHi
+ience.joystick.angle + Math.PI * .5 : e.keys || e.arrowdown ? e.keyd || e.arrowright ? t = Math.PI /
+ath.PI * .5 : e.keys || e.arrowdown ? e.keyd || e.arrowright ? t = Math.PI / 4 : (e.keya || e.arrowl
+ || e.arrowright ? t = Math.PI / 4 : (e.keya || e.arrowleft) && (t = -Math.PI / 4) : e.keyw || e.arr
+ e.arrowleft) && (t = -Math.PI / 4) : e.keyw || e.arrowup ? e.keyd || e.arrowright ? t = Math.PI / 4
+-Math.PI / 4) : e.keyw || e.arrowup ? e.keyd || e.arrowright ? t = Math.PI / 4 + Math.PI / 2 : e.key
+ght ? t = Math.PI / 4 + Math.PI / 2 : e.keya || e.arrowleft ? t = -Math.PI / 4 - Math.PI / 2 : t = M
+.PI / 4 - Math.PI / 2 : t = Math.PI : e.keyd || e.arrowright ? t = Math.PI / 2 : (e.keya || e.arrowl
+ || e.arrowright ? t = Math.PI / 2 : (e.keya || e.arrowleft) && (t = -Math.PI / 2), t } moveTo(e, t 
+k(), s.preventDefault() } switch (s.code) { case "ArrowDown": case "ArrowRight": case "KeyS": case "
+ult() } switch (s.code) { case "ArrowDown": case "ArrowRight": case "KeyS": case "KeyD": this.active
+his.activeLinkIndex + 1) % l.length; break; case "ArrowUp": case "ArrowLeft": case "KeyW": case "Key
+dex + 1) % l.length; break; case "ArrowUp": case "ArrowLeft": case "KeyW": case "KeyA": this.activeL
+.router.path.startsWith("/gallery/") && this.page.arrowClicked) return; const t = this.experience.ro
+ey === "Enter" && this.$input.blur(), x.code === "ArrowUp" && (x.preventDefault(), n(this._step * th
+wUp" && (x.preventDefault(), n(this._step * this._arrowKeyMultiplier(x))), x.code === "ArrowDown" &&
+step * this._arrowKeyMultiplier(x))), x.code === "ArrowDown" && (x.preventDefault(), n(this._step * 
+own" && (x.preventDefault(), n(this._step * this._arrowKeyMultiplier(x) * -1)) }, s = x => { this._i
+st v = x.clientY - c; u -= v * this._step * this._arrowKeyMultiplier(x), h + u > this._max ? u = thi
+120, n *= this._stepExplicit ? 1 : 10), t + -n } _arrowKeyMultiplier(e) { let t = this._stepExplicit
+
+--- /Bilgi/gi ---
+pan></li>`, e.innerHTML += `
+    <li><span><span>Bilgi Alın</span></span></li>`, l != null && l.len
+
+--- /Price upon/gi ---
+
+--- /Price on/gi ---
